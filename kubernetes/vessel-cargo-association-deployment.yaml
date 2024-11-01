@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vessel-cargo-association-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vessel-cargo-association
+  template:
+    metadata:
+      labels:
+        app: vessel-cargo-association
+    spec:
+      containers:
+      - name: vessel-cargo-association
+        image: astaomars/vessel-cargo-association:latest
+        ports:
+        - containerPort: 5003
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+          requests:
+            memory: "256Mi"
+            cpu: "250m"  

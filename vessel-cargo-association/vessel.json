@@ -1,0 +1,4 @@
+[
+    { "vessel_id": "V123", "ports_visited": ["PortA", "PortB"] },
+    { "vessel_id": "V124", "ports_visited": ["PortB", "PortC"] }
+]

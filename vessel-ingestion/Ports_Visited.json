@@ -1,0 +1,10 @@
+     [
+    {
+        "vessel_id": "V124",
+		"ports_visited": ["PortA", "PortB"]
+    },
+    {
+        "vessel_id": "V125",
+		"ports_visited": ["PortC", "PortD"]
+    }
+]

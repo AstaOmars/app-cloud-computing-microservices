@@ -1,0 +1,5 @@
+[
+    { "cargo_id": "C001", "port": "PortA", "cargo_type": "Electronics" },
+    { "cargo_id": "C002", "port": "PortB", "cargo_type": "Furniture" },
+    { "cargo_id": "C003", "port": "PortC", "cargo_type": "Machinery" }
+]

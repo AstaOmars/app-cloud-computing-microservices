@@ -1,0 +1,10 @@
+     [
+    {
+        "vessel_id": "V124",
+        "position": {"lat": 30, "lng": 55}
+    },
+    {
+        "vessel_id": "V125",
+        "position": {"lat": 32, "lng": 52}
+    }
+]
